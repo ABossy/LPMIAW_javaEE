@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ProjetSIL4_etape3:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war</output-path>
+    <root id="archive" name="ProjetSIL4_etape3_war.war">
+      <element id="artifact" artifact-name="ProjetSIL4_etape3:war exploded" />
+      <element id="library" level="project" name="mysql:mysql-connector-java:5.1.48" />
+    </root>
+  </artifact>
+</component>
