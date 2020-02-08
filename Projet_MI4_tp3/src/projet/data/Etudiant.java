@@ -18,7 +18,7 @@ public class Etudiant implements Serializable {
 
     private int nbAbsences;
 
-    private int moyenneGenerale;
+    private float moyenneGenerale;
 
     @ManyToOne
     private Groupe groupe;
@@ -71,6 +71,16 @@ public class Etudiant implements Serializable {
 		this.nbAbsences = nbAbsences;
 	}
 
+    public void ajouterAbsence() {
+        this.nbAbsences++;
+    }
+
+    public void enleverAbsence() {
+        if (nbAbsences > 0) {
+            this.nbAbsences--;
+        }
+    }
+
 	public Groupe getGroupe() {
 		return groupe;
 	}
@@ -79,11 +89,11 @@ public class Etudiant implements Serializable {
 		this.groupe = groupe;
 	}
 
-	public int getMoyenneGenerale() {
+	public float getMoyenneGenerale() {
 		return moyenneGenerale;
 	}
 
-	public void setMoyenneGenerale(int moyenneGenerale) {
+	public void setMoyenneGenerale(float moyenneGenerale) {
 		if ((moyenneGenerale >=0) && (moyenneGenerale <=20)) {
 			this.moyenneGenerale = moyenneGenerale;
 		}

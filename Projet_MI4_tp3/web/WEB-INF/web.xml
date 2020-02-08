@@ -17,6 +17,7 @@
         <param-name>entetedepage</param-name>
         <param-value>/WEB-INF/JSP/commun/entetedepage.jsp</param-value>
     </context-param>
+
     <context-param>
         <param-name>pieddepage</param-name>
         <param-value>/WEB-INF/JSP/commun/pieddepage.jsp</param-value>
@@ -52,6 +53,10 @@
         <init-param>
             <param-name>urlConsultationNotes</param-name>
             <param-value>/WEB-INF/JSP/notes/consultationNotes.jsp</param-value>
+        </init-param>
+        <init-param>
+            <param-name>urlCreationEtudiant</param-name>
+            <param-value>/WEB-INF/JSP/creationEtudiant.jsp</param-value>
         </init-param>
     </servlet>
 

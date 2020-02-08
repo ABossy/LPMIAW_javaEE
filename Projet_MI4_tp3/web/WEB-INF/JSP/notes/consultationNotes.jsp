@@ -7,15 +7,13 @@
 <%@ page import="projet.data.*"%>
 
 <%-- USEBEAN --%>
-<jsp:useBean id="listeNotesEtudiants" type="java.util.Map<projet.data.Etudiant,java.lang.Integer>" scope="request"/>
+<jsp:useBean id="listeNotesEtudiants" type="java.util.Map<projet.data.Etudiant,java.lang.Float>" scope="request"/>
 
 
 <!--% ou en JAVA
 Map<Etudiant,Integer> listeNotesEtudiants = (Map<Etudiant,Integer>)request.getAttribute("listeNotesEtudiants");
 %-->
-
-<div style="background-color:#D8F6CE">
-
+<div class="container">
 <!-- AFFICHAGE d'un titre  -->
 <h3>Moyennes générales</h3>
 
@@ -23,13 +21,17 @@ Map<Etudiant,Integer> listeNotesEtudiants = (Map<Etudiant,Integer>)request.getAt
 <% if (listeNotesEtudiants.size() != 0) {%>
 
 <!-- tableau de notes  -->
-<table border="1">
-
+<table class="table table-striped">
+	<tr>
+		<th>Etudiant</th>
+		<th>Groupe</th>
+		<th>Note</th>
+	</tr>
 <%
-int sommeMoyenneGenerale = 0;
-for (Map.Entry<Etudiant, Integer> entry : listeNotesEtudiants.entrySet()) {
+float sommeMoyenneGenerale = 0;
+for (Map.Entry<Etudiant, Float> entry : listeNotesEtudiants.entrySet()) {
 	Etudiant etudiant = entry.getKey();
-	Integer note = entry.getValue();
+	float note = entry.getValue();
 %>
 	<tr>
 		<td><a href="<%= application.getContextPath()%>/do/etudiant?id=<%=etudiant.getId()%>"><%=etudiant.getPrenom()%> <%=etudiant.getNom()%></a></td>
@@ -50,7 +52,5 @@ for (Map.Entry<Etudiant, Integer> entry : listeNotesEtudiants.entrySet()) {
 
 	<p>Aucun étudiant</p>
 <%}%>
-
-<blockquote>je suis consultationNotes.jsp</blockquote>
 
 </div>

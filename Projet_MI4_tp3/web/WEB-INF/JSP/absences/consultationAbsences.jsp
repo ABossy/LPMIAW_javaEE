@@ -13,16 +13,17 @@
 Map<Etudiant,Integer> listeAbsencesEtudiants = (Map<Etudiant,Integer>)request.getAttribute("listeAbsencesEtudiants");
 %-->
 
-<div style="background-color:#D8F6CE">
 
-<!-- AFFICHAGE en fonction du groupe ou de ALL  -->
+<div class="container">
 <h3>Consultation des absences</h3>
-
-<!-- AFFICHAGE des notes des étudiants  -->
+<!-- tableau des absences  -->
 <% if (listeAbsencesEtudiants.size() != 0) {%>
-
-<!-- tableau de notes  -->
-<table border="1">
+<table class="table table-striped">
+	<tr>
+		<th>Etudiant</th>
+		<th>Groupe</th>
+		<th>Absence</th>
+	</tr>
 <%
 int totalAbsences = 0;
 for (Map.Entry<Etudiant, Integer> entry : listeAbsencesEtudiants.entrySet()) {
@@ -47,6 +48,6 @@ totalAbsences = totalAbsences + absences;
 	<p>Aucun étudiant</p>
 <%}%>
 
-<blockquote>je suis constulationAbsences.jsp</blockquote>
+
 
 </div>
