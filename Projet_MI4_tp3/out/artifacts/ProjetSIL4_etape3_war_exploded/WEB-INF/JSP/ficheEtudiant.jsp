@@ -1,11 +1,5 @@
 <%@ page import="projet.data.Groupe" %>
-<%--
-  Created by IntelliJ IDEA.
-  User: astrid
-  Date: 30/01/2020
-  Time: 18:16
-  To change this template use File | Settings | File Templates.
---%>
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <jsp:useBean id="groupes" type="java.util.List<projet.data.Groupe>" scope="request" />
 <jsp:useBean id="etudiant" class="projet.data.Etudiant" scope="request"/>
@@ -20,6 +14,7 @@
 	<tr>
 		<td>Groupe</td>
 		<td><%=etudiant.getGroupe().getNom()%></td>
+
         <td>Modifier Groupe</td>
         <td><form action="<%=application.getContextPath()%>/do/modifierGroupe?id=<%=etudiant.getId()%>" method="post">
             <div class="form-group">

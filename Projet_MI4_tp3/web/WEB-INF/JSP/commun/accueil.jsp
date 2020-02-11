@@ -2,6 +2,6 @@
     pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
-<div>
-<p>Bienvenu dans notre application de consultation des notes et absences</p>
+<div class="container">
+<h1>Application de consultation des notes et absences</h1>
 </div>

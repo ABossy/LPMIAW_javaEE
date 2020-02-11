@@ -12,7 +12,7 @@
 <body>
 <!--navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Projet MI4</a>
+        <a class="navbar-brand">Projet MI4</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -28,6 +28,9 @@
                 </li>
                 <li class="nav-item nav-link">
                     <a href="<%= application.getContextPath()%>/do/consultationAbsences">Consulter les absences</a>
+                </li>
+                <li class="nav-item nav-link">
+                    <a href="<%= application.getContextPath()%>/do/consultationGroupes">Consulter les groupes</a>
                 </li>
             </ul>
         </div>

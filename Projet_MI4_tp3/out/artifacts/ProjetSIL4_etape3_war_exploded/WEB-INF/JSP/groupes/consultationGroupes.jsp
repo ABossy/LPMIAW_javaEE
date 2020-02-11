@@ -1,16 +1,30 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: astrid
-  Date: 08/02/2020
-  Time: 19:07
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <title>Title</title>
-</head>
-<body>
+<%@ page contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8"%>
 
-</body>
-</html>
+<%-- IMPORT --%>
+<%@ page import="projet.data.Groupe" %>
+
+<%-- USEBEAN --%>
+<jsp:useBean id="groupes" type="java.util.Collection<projet.data.Groupe>" scope="request"/>
+
+<div class="container">
+        <div class="row">
+        <!-- AFFICHAGE d'un titre  -->
+        <h3>Liste des goupes</h3>
+        <a href="<%=application.getContextPath()%>/do/creationGroupe" class="btn btn-info ml-4">Créer un groupe</a></div>
+        <table class="table table-striped">
+                <tr>
+                <th>Groupes</th>
+                <th>Edition</th>
+                </tr>
+
+                <%for (Groupe groupe : groupes) {%>
+                <tr>
+                <td><a href="<%=application.getContextPath()%>/do/detailsGroupe?id=<%=groupe.getId()%>"><%=groupe.getNom()%></a></td>
+                <td><a href="<%=application.getContextPath()%>/do/supprimerGroupe?id=<%=groupe.getId()%>" class="btn btn-danger ml-4">Delete</a></td>
+                </tr>
+               <%}%>
+
+        </table>
+        </div>
+</div>

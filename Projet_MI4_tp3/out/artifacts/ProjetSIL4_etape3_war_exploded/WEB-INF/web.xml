@@ -58,6 +58,18 @@
             <param-name>urlCreationEtudiant</param-name>
             <param-value>/WEB-INF/JSP/creationEtudiant.jsp</param-value>
         </init-param>
+        <init-param>
+            <param-name>urlConsultationGroupes</param-name>
+            <param-value>/WEB-INF/JSP/groupes/consultationGroupes.jsp</param-value>
+        </init-param>
+        <init-param>
+            <param-name>urlDetailsGroupe</param-name>
+            <param-value>/WEB-INF/JSP/groupes/detailsGroupe.jsp</param-value>
+        </init-param>
+        <init-param>
+            <param-name>urlCreationGroupes</param-name>
+            <param-value>/WEB-INF/JSP/groupes/creationGroupe.jsp</param-value>
+        </init-param>
     </servlet>
 
     <!-- Mapping URL/Servlet -->

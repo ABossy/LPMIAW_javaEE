@@ -7,46 +7,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a468248d-e9ab-437e-b872-96c0141df5e4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/JSP/creationEtudiant.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/JSP/groupes/creationGroupe.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/JSP/groupes/detailsGroupe.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/JSP/absences/consultationAbsences.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/JSP/absences/consultationAbsences.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/JSP/commun/accueil.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/JSP/commun/accueil.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/JSP/ficheEtudiant.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/JSP/ficheEtudiant.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/JSP/gestionTemplate.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/JSP/gestionTemplate.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/JSP/listeEtudiants.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/JSP/listeEtudiants.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/JSP/notes/consultationNotes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/JSP/notes/consultationNotes.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/JSP/groupes/consultationGroupes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/JSP/groupes/consultationGroupes.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/classes/projet/controleur/Controleur.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/classes/projet/controleur/Controleur.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/classes/projet/data/Etudiant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/classes/projet/data/Etudiant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/classes/projet/data/EtudiantDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/classes/projet/data/EtudiantDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/classes/projet/data/GestionFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/classes/projet/data/GestionFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/classes/projet/data/Groupe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/classes/projet/data/Groupe.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/classes/projet/data/GroupeDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/classes/projet/data/GroupeDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/data/MI4BDsqlite.db" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/data/MI4BDsqlite.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetSIL4_etape3/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSIL4_etape3/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjetSIL4_etape3/projet/controleur/Controleur.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSIL4_etape3/projet/controleur/Controleur.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetSIL4_etape3/projet/data/Etudiant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSIL4_etape3/projet/data/Etudiant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetSIL4_etape3/projet/data/EtudiantDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSIL4_etape3/projet/data/EtudiantDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetSIL4_etape3/projet/data/GestionFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSIL4_etape3/projet/data/GestionFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetSIL4_etape3/projet/data/Groupe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSIL4_etape3/projet/data/Groupe.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjetSIL4_etape3/projet/data/GroupeDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSIL4_etape3/projet/data/GroupeDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projet/controleur/Controleur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projet/controleur/Controleur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projet/data/Etudiant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projet/data/Etudiant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projet/data/EtudiantDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projet/data/EtudiantDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projet/data/GestionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projet/data/GestionFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projet/data/Groupe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projet/data/Groupe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projet/data/GroupeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projet/data/GroupeDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/JSP/absences/consultationAbsences.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/JSP/absences/consultationAbsences.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/JSP/commun/accueil.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/JSP/commun/accueil.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/JSP/ficheEtudiant.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/JSP/ficheEtudiant.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/JSP/gestionTemplate.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/JSP/gestionTemplate.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/JSP/listeEtudiants.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/JSP/listeEtudiants.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/JSP/notes/consultationNotes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/JSP/notes/consultationNotes.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/JSP/groupes/consultationGroupes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/JSP/groupes/consultationGroupes.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/data/MI4BDsqlite.db" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/data/MI4BDsqlite.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
     </list>
@@ -121,7 +100,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15625" />
@@ -305,7 +284,10 @@
       <workItem from="1580377649836" duration="3421000" />
       <workItem from="1580397295073" duration="926000" />
       <workItem from="1580402830336" duration="4750000" />
-      <workItem from="1581170160727" duration="15022000" />
+      <workItem from="1581170160727" duration="17109000" />
+      <workItem from="1581322298492" duration="227000" />
+      <workItem from="1581326882889" duration="8485000" />
+      <workItem from="1581429518473" duration="6974000" />
     </task>
     <servers />
   </component>
