@@ -13,18 +13,27 @@
 <table class="table table-striped">
 	<tr>
 		<td>Groupe</td>
-		<td><%=etudiant.getGroupe().getNom()%></td>
-
+<%--		<td><%=etudiant.getGroupe().getNom()%></td>--%>
+        <td><% if (etudiant.getGroupe() != null) {%>
+            <%=etudiant.getGroupe().getNom()%>
+            <% } else {%>
+            Aucun groupe
+            <%}%></td>
         <td>Modifier Groupe</td>
         <td><form action="<%=application.getContextPath()%>/do/modifierGroupe?id=<%=etudiant.getId()%>" method="post">
             <div class="form-group">
                 <select class="form-control" name="groupe" id="groupe">
-                    <%for (Groupe groupe : groupes) {%>
-
-                    <option value="<%=groupe.getId()%>"
-                    <%if ( groupe.getId() == etudiant.getGroupe().getId() ) {%>selected<%}%>
-                    ><%=groupe.getNom()%></option>
-                    <%}%>
+                    <%
+                        for (Groupe groupe : groupes) {
+                    %>
+                        <% if (etudiant.getGroupe() != null) {
+                            if ( groupe.getId() == etudiant.getGroupe().getId() ) {
+                                %>selected<%
+                            }%>
+                        <%}%>
+                        <option value="<%=groupe.getId()%>">
+                            <%=groupe.getNom()%></option>
+                        <%}%>
                 </select>
                 <button type="submit" class="btn btn-info">Modifier</button>
             </div>
@@ -43,7 +52,7 @@
 
 	</tr>
 	<tr>
-        <td>Modifier Absences</td>
+        <td>Absences</td>
         <td><%=etudiant.getNbAbsences()%></td>
 		<td>Absences</td>
 		<td><a href="<%= application.getContextPath()%>/do/enlever-absence?id=<%=etudiant.getId()%>"><button>-</button></a> <%=nbAbsences%>

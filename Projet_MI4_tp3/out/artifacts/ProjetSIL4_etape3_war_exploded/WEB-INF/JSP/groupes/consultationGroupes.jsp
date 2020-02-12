@@ -21,7 +21,7 @@
                 <%for (Groupe groupe : groupes) {%>
                 <tr>
                 <td><a href="<%=application.getContextPath()%>/do/detailsGroupe?id=<%=groupe.getId()%>"><%=groupe.getNom()%></a></td>
-                <td><a href="<%=application.getContextPath()%>/do/supprimerGroupe?id=<%=groupe.getId()%>" class="btn btn-danger ml-4">Delete</a></td>
+                   <td><a href="<%=application.getContextPath()%>/do/supprimerGroupe?id=<%=groupe.getId()%>" class="btn btn-danger ml-4">Delete</a></td>
                 </tr>
                <%}%>
 

@@ -35,7 +35,12 @@ for (Map.Entry<Etudiant, Float> entry : listeNotesEtudiants.entrySet()) {
 %>
 	<tr>
 		<td><a href="<%= application.getContextPath()%>/do/etudiant?id=<%=etudiant.getId()%>"><%=etudiant.getPrenom()%> <%=etudiant.getNom()%></a></td>
-		<td><%=etudiant.getGroupe().getNom()%></td>
+<%--		<td><%=etudiant.getGroupe().getNom()%></td>--%>
+		<td><% if (etudiant.getGroupe() != null) {%>
+			<%=etudiant.getGroupe().getNom()%>
+			<% } else {%>
+			Aucun groupe
+			<%}%></td>
 		<td><%=note%></td>
 	</tr>
 <%

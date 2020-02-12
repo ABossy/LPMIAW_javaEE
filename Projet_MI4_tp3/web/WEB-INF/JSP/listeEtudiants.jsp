@@ -30,7 +30,13 @@ for (Etudiant etudiant : listeEtudiants) {
 %>
 	<tr>
 		<td><a href="<%= application.getContextPath()%>/do/etudiant?id=<%=etudiant.getId()%>"><%=etudiant.getPrenom()%> <%=etudiant.getNom()%></a></td>
-		<td><%=etudiant.getGroupe().getNom()%></td>
+		<td><% if (etudiant.getGroupe() != null) {%>
+			<%=etudiant.getGroupe().getNom()%>
+		<% } else {%>
+		Aucun groupe
+			<%}%></td>
+
+<%--		<td><%=etudiant.getGroupe().getNom()%></td>--%>
 		<td><a href="<%=application.getContextPath()%>/do/supprimerEtudiant?id=<%=etudiant.getId()%>" class="btn btn-danger ml-4">Delete</a></td>
 	</tr>
 <%
