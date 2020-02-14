@@ -1,6 +1,3 @@
-/**
- * 
- */
 package projet.controleur;
 
 import java.io.IOException;
@@ -17,7 +14,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import projet.data.*;
-import projet.data.Module;
+//import projet.data.Module;
 
 @SuppressWarnings("serial")
 public class Controleur extends HttpServlet {
@@ -67,23 +64,23 @@ public class Controleur extends HttpServlet {
 			EtudiantDAO.create("Astrid", "Bossy", MESSI);
 
 			// Creation des groupes
-			projet.data.Module MI1 = ModuleDAO.create("MI1");
-			Module MI4 = ModuleDAO.create("MI4");
+//			projet.data.Module MI1 = ModuleDAO.create("MI1");
+//			Module MI4 = ModuleDAO.create("MI4");
 
 			// Liés groupe et module
-			MIAM.addModule(MI1);
-			MIAM.addModule(MI4);
-			SIMO.addModule(MI1);
+//			MIAM.addModule(MI1);
+//			MIAM.addModule(MI4);
+//			SIMO.addModule(MI1);
 
-			MI1.addGroupe(MIAM);
-			MI4.addGroupe(MIAM);
-			MI1.addGroupe(SIMO);
+//			MI1.addGroupe(MIAM);
+//			MI4.addGroupe(MIAM);
+//			MI1.addGroupe(SIMO);
 
 			GroupeDAO.update(MIAM);
 			GroupeDAO.update(SIMO);
-
-			ModuleDAO.update(MI1);
-			ModuleDAO.update(MI4);
+//
+//			ModuleDAO.update(MI1);
+//			ModuleDAO.update(MI4);
 
 		}
 	}
@@ -422,6 +419,17 @@ public class Controleur extends HttpServlet {
 	// /////////////////////// suppression d'un groupe
 	//
 	private void doSupprimerGroupe(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+		int idGroupe = Integer.parseInt(request.getParameter("id"));
+
+		Groupe groupe = GroupeDAO.retrieveById(idGroupe);
+
+		for (Etudiant etudiant: groupe.getEtudiants())
+		{
+			etudiant.setGroupe(null);
+			EtudiantDAO.update(etudiant);
+		}
+
 		GroupeDAO.remove(Integer.parseInt(request.getParameter("id")));
 		response.sendRedirect(request.getContextPath() + "/do/consultationGroupes");
 

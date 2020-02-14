@@ -36,7 +36,6 @@ for (Etudiant etudiant : listeEtudiants) {
 		Aucun groupe
 			<%}%></td>
 
-<%--		<td><%=etudiant.getGroupe().getNom()%></td>--%>
 		<td><a href="<%=application.getContextPath()%>/do/supprimerEtudiant?id=<%=etudiant.getId()%>" class="btn btn-danger ml-4">Delete</a></td>
 	</tr>
 <%

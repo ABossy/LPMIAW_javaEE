@@ -17,7 +17,6 @@
                 <th>Groupes</th>
                 <th>Edition</th>
                 </tr>
-
                 <%for (Groupe groupe : groupes) {%>
                 <tr>
                 <td><a href="<%=application.getContextPath()%>/do/detailsGroupe?id=<%=groupe.getId()%>"><%=groupe.getNom()%></a></td>

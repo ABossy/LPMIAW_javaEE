@@ -13,7 +13,6 @@
 <table class="table table-striped">
 	<tr>
 		<td>Groupe</td>
-<%--		<td><%=etudiant.getGroupe().getNom()%></td>--%>
         <td><% if (etudiant.getGroupe() != null) {%>
             <%=etudiant.getGroupe().getNom()%>
             <% } else {%>
@@ -26,12 +25,13 @@
                     <%
                         for (Groupe groupe : groupes) {
                     %>
+                        <option value="<%=groupe.getId()%>"
                         <% if (etudiant.getGroupe() != null) {
                             if ( groupe.getId() == etudiant.getGroupe().getId() ) {
                                 %>selected<%
                             }%>
                         <%}%>
-                        <option value="<%=groupe.getId()%>">
+                        >
                             <%=groupe.getNom()%></option>
                         <%}%>
                 </select>

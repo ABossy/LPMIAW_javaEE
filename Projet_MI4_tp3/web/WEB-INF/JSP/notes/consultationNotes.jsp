@@ -9,14 +9,11 @@
 <%-- USEBEAN --%>
 <jsp:useBean id="listeNotesEtudiants" type="java.util.Map<projet.data.Etudiant,java.lang.Float>" scope="request"/>
 
-
 <!--% ou en JAVA
 Map<Etudiant,Integer> listeNotesEtudiants = (Map<Etudiant,Integer>)request.getAttribute("listeNotesEtudiants");
 %-->
 <div class="container">
-<!-- AFFICHAGE d'un titre  -->
 <h3>Moyennes générales</h3>
-
 <!-- AFFICHAGE des notes des étudiants  -->
 <% if (listeNotesEtudiants.size() != 0) {%>
 
@@ -35,7 +32,6 @@ for (Map.Entry<Etudiant, Float> entry : listeNotesEtudiants.entrySet()) {
 %>
 	<tr>
 		<td><a href="<%= application.getContextPath()%>/do/etudiant?id=<%=etudiant.getId()%>"><%=etudiant.getPrenom()%> <%=etudiant.getNom()%></a></td>
-<%--		<td><%=etudiant.getGroupe().getNom()%></td>--%>
 		<td><% if (etudiant.getGroupe() != null) {%>
 			<%=etudiant.getGroupe().getNom()%>
 			<% } else {%>

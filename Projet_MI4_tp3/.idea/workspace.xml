@@ -2,20 +2,36 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="ProjetSIL4_etape3:war exploded" />
+      <artifact name="ProjetSIL4_etape3:war" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a468248d-e9ab-437e-b872-96c0141df5e4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war/ProjetSIL4_etape3_war.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war/ProjetSIL4_etape3_war.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/JSP/absences/consultationAbsences.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/JSP/absences/consultationAbsences.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/JSP/commun/pieddepage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/JSP/commun/pieddepage.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/JSP/ficheEtudiant.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/JSP/ficheEtudiant.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/JSP/groupes/consultationGroupes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/JSP/groupes/consultationGroupes.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/JSP/gestionTemplate.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/JSP/gestionTemplate.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/JSP/listeEtudiants.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/JSP/listeEtudiants.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/JSP/notes/consultationNotes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/JSP/notes/consultationNotes.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/classes/projet/controleur/Controleur.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/classes/projet/controleur/Controleur.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/classes/projet/data/GestionFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/classes/projet/data/GestionFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/classes/projet/data/Groupe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/classes/projet/data/Groupe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/classes/projet/data/GroupeDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/classes/projet/data/GroupeDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/data/MI4BDsqlite.db" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/data/MI4BDsqlite.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetSIL4_etape3/projet/controleur/Controleur.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSIL4_etape3/projet/controleur/Controleur.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetSIL4_etape3/projet/data/GestionFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSIL4_etape3/projet/data/GestionFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetSIL4_etape3/projet/data/Groupe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSIL4_etape3/projet/data/Groupe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetSIL4_etape3/projet/data/GroupeDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSIL4_etape3/projet/data/GroupeDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projet/controleur/Controleur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projet/controleur/Controleur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projet/data/GestionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projet/data/GestionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projet/data/Groupe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projet/data/Groupe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projet/data/GroupeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projet/data/GroupeDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/JSP/absences/consultationAbsences.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/JSP/absences/consultationAbsences.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/JSP/commun/pieddepage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/JSP/commun/pieddepage.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/JSP/ficheEtudiant.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/JSP/ficheEtudiant.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/JSP/gestionTemplate.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/JSP/gestionTemplate.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/JSP/groupes/consultationGroupes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/JSP/groupes/consultationGroupes.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/JSP/listeEtudiants.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/JSP/listeEtudiants.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/JSP/notes/consultationNotes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/JSP/notes/consultationNotes.jsp" afterDir="false" />
@@ -94,6 +110,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15625" />
     <property name="project.structure.side.proportion" value="0.36363637" />
@@ -280,7 +297,8 @@
       <workItem from="1581322298492" duration="227000" />
       <workItem from="1581326882889" duration="8485000" />
       <workItem from="1581429518473" duration="7327000" />
-      <workItem from="1581494709647" duration="10534000" />
+      <workItem from="1581494709647" duration="12274000" />
+      <workItem from="1581668738861" duration="8016000" />
     </task>
     <servers />
   </component>
